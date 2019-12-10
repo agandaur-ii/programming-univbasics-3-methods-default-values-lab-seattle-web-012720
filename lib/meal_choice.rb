@@ -6,5 +6,5 @@ def meal_choice (veg1, veg2, protein = "meat")
   puts "A plate of #{protein} with #{veg1} and #{veg2}."
 end
 
-puts meal_choice("B", "K", "T")
-meal_choice("B", "K")
+print meal_choice("B", "K", "T")
+print meal_choice("B", "K")
