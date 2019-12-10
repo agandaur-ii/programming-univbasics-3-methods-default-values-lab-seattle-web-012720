@@ -3,8 +3,7 @@
 
 def meal_choice (veg1, veg2, protein = "meat")
   puts "What a nutritious meal!"
-  return "A plate of #{protein} with #{veg1} and #{veg2}."
+  puts "A plate of #{protein} with #{veg1} and #{veg2}."
 end
 
-answer = meal_choice("B", "M", "T")
-return 
+return = meal_choice("B", "M", "T")
